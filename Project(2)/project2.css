@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    background:rgb(32, 30, 30);
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align: center;
+   
+}
+
+form{
+    margin: 100px;
+}
+
+input {
+    text-align: center;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    background-color: rgb(187, 235, 235);
+    padding: 20px ; 
+    margin: 25px;
+    outline: none;
+    width: 400px;
+    
+    
+   
+}
+
+input:focus {
+    border: 2px solid rgb(194, 134, 134);
+
+}
+
+button {
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: #1b4646;
+    width: 400px;
+    height: 50px;
+    outline: none;
+    border: none;
+    text-align: center;
+    margin: 30px 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: black;
+}
+#send{
+    font-weight: bold;
+    display: block;
+    color: green;
+    font-size: 20px;
+    margin-left: 20px;
+}
